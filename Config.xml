@@ -1,0 +1,13 @@
+
+<geneticAlgorithmConfig>
+	
+	<logFilePath>/home/loki/Projects/Genetic/log/Config1_Output.txt</logFilePath>
+	
+	<generationCount>2</generationCount>
+	<generationSize>10</generationSize>
+	<crossOverRatio>0.5</crossOverRatio> <!-- per cent  -->
+	<mutationRatio>0.1</mutationRatio> <!-- per cent  -->
+	<crossOverLocation>3</crossOverLocation>
+	<genomeLength>5</genomeLength>
+	
+</geneticAlgorithmConfig>

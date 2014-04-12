@@ -1,0 +1,223 @@
+--------------------------------
+Genetic Algorithm Implementation
+--------------------------------
+ ------ System Parameters ------ 
+Log Path ..............:/home/loki/Projects/Genetic/log/Config1_Output.txt
+Generation Count ......:2
+Generation Size .......:20
+Crossover Ratio .......:0.5
+Mutation Ratio ........:0.01
+Crossover Location ....:6
+Genome Length .........:10
+ ------------------------------- 
+
+Creating first generation
+Genome created:0000010000 Fitness: 192.0
+Genome created:0101100000 Fitness: 12672.0
+Genome created:0110100000 Fitness: 14976.0
+Genome created:1101101101 Fitness: 73668.0
+Genome created:0001011100 Fitness: 4416.0
+Genome created:1110100111 Fitness: 78540.0
+Genome created:1010000011 Fitness: 30864.0
+Genome created:1100111011 Fitness: 69468.0
+Genome created:0001101101 Fitness: 6540.0
+Genome created:0101110110 Fitness: 26928.0
+Genome created:0111010001 Fitness: 27900.0
+Genome created:1000011111 Fitness: 39096.0
+Genome created:1011011111 Fitness: 70560.0
+Genome created:1010001110 Fitness: 39240.0
+Genome created:1001010100 Fitness: 28608.0
+Genome created:0101111001 Fitness: 27144.0
+Genome created:1111110110 Fitness: 97344.0
+Genome created:0110111001 Fitness: 31752.0
+Genome created:0110011011 Fitness: 29592.0
+Genome created:0101110011 Fitness: 26712.0
+Avearage fitness:36810.6
+Genome  0000010000 will be selected in range: {0,0.0003}
+Genome  0101100000 will be selected in range: {0.0003,0.0175}
+Genome  0110100000 will be selected in range: {0.0175,0.0378}
+Genome  1101101101 will be selected in range: {0.0378,0.1379}
+Genome  0001011100 will be selected in range: {0.1379,0.1439}
+Genome  1110100111 will be selected in range: {0.1439,0.2506}
+Genome  1010000011 will be selected in range: {0.2506,0.2925}
+Genome  1100111011 will be selected in range: {0.2925,0.3868}
+Genome  0001101101 will be selected in range: {0.3868,0.3957}
+Genome  0101110110 will be selected in range: {0.3957,0.4323}
+Genome  0111010001 will be selected in range: {0.4323,0.4702}
+Genome  1000011111 will be selected in range: {0.4702,0.5233}
+Genome  1011011111 will be selected in range: {0.5233,0.6191}
+Genome  1010001110 will be selected in range: {0.6191,0.6724}
+Genome  1001010100 will be selected in range: {0.6724,0.7113}
+Genome  0101111001 will be selected in range: {0.7113,0.7482}
+Genome  1111110110 will be selected in range: {0.7482,0.8804}
+Genome  0110111001 will be selected in range: {0.8804,0.9235}
+Genome  0110011011 will be selected in range: {0.9235,0.9637}
+Genome  0101110011 will be selected in range: {0.9637,1}
+-------------------------------------
+Selection started
+Random value: 0.3811
+Selected genome: 1100111011
+Random value: 0.1173
+Selected genome: 1101101101
+Random value: 0.3993
+Selected genome: 0101110110
+Random value: 0.8283
+Selected genome: 1111110110
+Random value: 0.5562
+Selected genome: 1011011111
+Random value: 0.9983
+Selected genome: 0101110011
+Random value: 0.5745
+Selected genome: 1011011111
+Random value: 0.7185
+Selected genome: 0101111001
+Random value: 0.83
+Selected genome: 1111110110
+Random value: 0.2128
+Selected genome: 1110100111
+Random value: 0.6109
+Selected genome: 1011011111
+Random value: 0.1894
+Selected genome: 1110100111
+Random value: 0.8744
+Selected genome: 1111110110
+Random value: 0.9481
+Selected genome: 0110011011
+Random value: 0.9611
+Selected genome: 0110011011
+Random value: 0.0257
+Selected genome: 0110100000
+Random value: 0.4848
+Selected genome: 1000011111
+Random value: 0.1863
+Selected genome: 1110100111
+Random value: 0.8754
+Selected genome: 1111110110
+Random value: 0.0367
+Selected genome: 0110100000
+Selection completed
+-------------------------------------
+After selection:
+Current generation:
+1100111011 Fitness: 69468
+1101101101 Fitness: 73668
+0101110110 Fitness: 26928
+1111110110 Fitness: 97344
+1011011111 Fitness: 70560
+0101110011 Fitness: 26712
+1011011111 Fitness: 70560
+0101111001 Fitness: 27144
+1111110110 Fitness: 97344
+1110100111 Fitness: 78540
+1011011111 Fitness: 70560
+1110100111 Fitness: 78540
+1111110110 Fitness: 97344
+0110011011 Fitness: 29592
+0110011011 Fitness: 29592
+0110100000 Fitness: 14976
+1000011111 Fitness: 39096
+1110100111 Fitness: 78540
+1111110110 Fitness: 97344
+0110100000 Fitness: 14976
+-------------------------------------
+Crossover started
+Parent1 :1101101101
+Parent2 :0101110110
+Child1 :1101100110
+Child2 :0101111101
+Parent1 :1101101101
+Parent2 :0101111001
+Child1 :1101101001
+Child2 :0101111101
+Parent1 :0101110110
+Parent2 :1101101101
+Child1 :0101111101
+Child2 :1101100110
+Parent1 :1000011111
+Parent2 :1100111011
+Child1 :1000011011
+Child2 :1100111111
+Parent1 :0110100000
+Parent2 :1110100111
+Child1 :0110100111
+Child2 :1110100000
+Parent1 :1110100111
+Parent2 :1011011111
+Child1 :1110101111
+Child2 :1011010111
+Parent1 :1111110110
+Parent2 :1111110110
+Child1 :1111110110
+Child2 :1111110110
+Parent1 :1110100111
+Parent2 :1110100111
+Child1 :1110100111
+Child2 :1110100111
+Parent1 :1011011111
+Parent2 :0110100000
+Child1 :1011010000
+Child2 :0110101111
+Parent1 :1000011111
+Parent2 :1011011111
+Child1 :1000011111
+Child2 :1011011111
+Crossover completed
+-------------------------------------
+After crossover:
+Current generation:
+1101100110 Fitness: 62640
+0101111101 Fitness: 32004
+1101101001 Fitness: 62856
+0101111101 Fitness: 32004
+0101111101 Fitness: 32004
+1101100110 Fitness: 62640
+1000011011 Fitness: 32340
+1100111111 Fitness: 79776
+0110100111 Fitness: 30456
+1110100000 Fitness: 44544
+1110101111 Fitness: 90528
+1011010111 Fitness: 61068
+1111110110 Fitness: 97344
+1111110110 Fitness: 97344
+1110100111 Fitness: 78540
+1110100111 Fitness: 78540
+1011010000 Fitness: 34560
+0110101111 Fitness: 36204
+1000011111 Fitness: 39096
+1011011111 Fitness: 70560
+-------------------------------------
+Mutation started
+Number Of Average Mutations:2
+Bit index to mutate:118
+Owner Genome: 1011010111
+Mutating bit at:8
+Genonme after mutation: 1011010101
+Bit index to mutate:2
+Owner Genome: 1101100110
+Mutating bit at:2
+Genonme after mutation: 1111100110
+Mutation completed
+-------------------------------------
+After mutation:
+Current generation:
+1111100110 Fitness: 83832
+0101111101 Fitness: 32004
+1101101001 Fitness: 62856
+0101111101 Fitness: 32004
+0101111101 Fitness: 32004
+1101100110 Fitness: 62640
+1000011011 Fitness: 32340
+1100111111 Fitness: 79776
+0110100111 Fitness: 30456
+1110100000 Fitness: 44544
+1110101111 Fitness: 90528
+1011010101 Fitness: 52200
+1111110110 Fitness: 97344
+1111110110 Fitness: 97344
+1110100111 Fitness: 78540
+1110100111 Fitness: 78540
+1011010000 Fitness: 34560
+0110101111 Fitness: 36204
+1000011111 Fitness: 39096
+1011011111 Fitness: 70560
+Genetic Algorithm completed
