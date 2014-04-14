@@ -8,4 +8,3 @@ public class ApplicationException extends RuntimeException {
 	}
 }
 
-
